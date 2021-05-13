@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="numbers">
+            <p class="num_p">Число 1:<input id="n1" type="text" placeholder="0"></p>
+            <p class="num_p">Число 2:<input id="n2" type="text" placeholder="0"></p>
+            <p class="result">Результат:<span class="res" id="out"></span></p>
+            <button class="button1 bottom" onclick="ce()" id='ce'>CE</button>
+        </div>
+        <div class="buttons">
+            <span class="func"><button class="button1" onclick="plus()" id='sum'>+</button></span>
+            <span class="func"> <button class="button1" onclick="minus()" id='minus'>-</button></span>
+            <span class="func"> <button class="button1" onclick="division()" id='division'>/</button></span>
+            <span class="func"> <button class="button1" onclick="multi()" id='multi'>*</button></span>
+        </div>
+    </div>
+    <script src="js/hello.js"></script>
+</body>
+
+</html>
